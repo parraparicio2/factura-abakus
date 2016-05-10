@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+
+/**
+ * errors in input
+ */
+.error-messages.ng-active {
+  background: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  font-size: 120%;
+  
+}
+.error-messages.ng-active:after {
+  position: absolute;
+  top: -10px;
+  content: "";
+  left: 20px;
+  border-style: solid;
+  border-color: transparent transparent red;
+  border-width: 5px;
+}
+.ng-check {
+  background: #00CC00;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+}
+.ng-msgbox {
+  background: #FF0000;
+  color: white; 
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+  margin-bottom: 10px;
+}
+.checkbox-simple label {
+  min-height: 5px;
+  padding-left: 5px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/**
+ * end errors input
+ */
+ 
+ 
+ .messagesform{
+    float:left;
+  width:100%;
+  font-size:140% !important;
+  margin-top:10px;
+}
+
+.labelform{
+  float:left;
+  width:100%;
+  font-size:140% !important;
+  margin-bottom:5px;
+}
+
+
+.labelform-inline{
+  float:left;
+  width:25%;
+  font-size:120%;
+  margin-bottom:5px;
+}
+
+.controlform-inline{
+  width:69%;
+  float:left;
+}
+
+.labelform2col{
+  float:left;
+  width:50%;
+  font-size:140% !important;
+  margin-bottom:5px;
+}
+
+.inputform{
+  width:100% !important;
+  border: 1px solid #9B9B9B !important; 
+  float:left;
+  font-size:200% !important;
+  text-align:left !important;
+  margin-top:0px !important; 
+  padding-left:5px !important;
+}
+
+  .formsubscriber2col{
+    width: 100% !important;
+  }
+  
+  .formsubscriber{
+	  height:auto;
+	  float:left;
+	  width:99%;
+	  margin-top: 0px;
+	  margin-bottom:5px;
+}
+
+
+box_img {
+	width: 100%;
+	height: auto;
+	max-width:900px;/*esto es lo que permite que se cargue la imagen cortada*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	float: left;
+	vertical-align:middle;
+}
+
+.logoindex{
+width: 20%;    
+}
+
+.box_img_container {
+        padding-top: 10%;
+	width: 100% !important;
+	height: 575px;
+	overflow: hidden;
+	float: left;
+	text-align:center;
+	margin: 0 auto;
+	vertical-align:middle; 
+}
+
+.container{
+	height:auto;
+	padding-left: 2%;
+	padding-right: 2%;
+        text-align: center; 
+}
+
+.cuerpofactura{
+	margin-top: 50px;
+        float: left;
+        width: 100%;
+        text-align: left !important; 
+        
+}
+
+.noresults{
+	margin-top: 50px;
+        float: left;
+        width: 100%;
+        font-size: 30px !important;
+}
+
+.ajaxicon{
+  margin-left: 20%;
+  height:100px;
+  position:fixed;
+  top:30%;
+  z-index:60 !important;
+}
+
+.formulario{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.etiquetas{
+	width:10%;
+	float:left;
+}
+
+.campos{
+    width:88%;
+	float:left;
+}
+
+.renglon{
+	width:100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.itemfactura{
+    float: left; 
+    width: 30%;
+    border: 2ps solid black;
+    text-align: left !important;
+    margin-left: 5px;
+}
+.spanitem{
+    float:left;
+    margin-left: 5px;
+}
+
+.piefactura{
+	float:left; 
+	width: 100%; 
+	height: auto; 
+	text-align: right;
+	padding-right:15%;
+	margin-bottom:10px;
+	font-size: 20px;
+}
+
+
+
+
+

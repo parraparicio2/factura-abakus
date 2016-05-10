@@ -1,0 +1,5 @@
+1.- ejecutar el script "prueba_pleisi_1_0 - CORREGIDO.sql" de base de datos en mysql
+2.- cambiar la configuracion que se encuentra al final del archivo db.php que se encuentra en la carpeta includes, para seleccionar 
+el servidor, usuario y contraseña de la base de datos
+3.- copiar en el servidor apache para ejecutar.
+
